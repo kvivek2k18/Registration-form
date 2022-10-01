@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-container{
+    position:relative;
+    max-width: 900px;
+    width:100%;
+    border-radius: 6px;
+    align-items: center;
+    margin-left:15%; 
+    background-color: lightgray;
+    
+}
+header{
+    color:aliceblue;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+}
+input{
+    width: 71%;
+}
+header{
+    background-color: black;
+}
+ header .main-heading{
+    text-align: center;
+    color:white; 
+    
+}
+.registration-form{
+    width: 65%;
+    margin: auto;
+    margin-top: 35px;
+}
+.button-cont{
+    text-align: center;
+}
+.form-label{
+    color:black;
+}
+
+.form-check-label{
+    color:black;
+}
+#submitForm{
+    background-color: black;
+    margin-bottom: 10px;
+}
